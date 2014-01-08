@@ -1,0 +1,99 @@
+# depslib dependency file v1.0
+1389143495 source:/home/batman/Workspaces/C Workspaces/OpenGLTest/main.cpp
+	<iostream>
+	<SDL2/SDL.h>
+	"display.h"
+	"mesh.h"
+	"shader.h"
+	"texture.h"
+	"transform.h"
+	"camera.h"
+
+1388893847 source:/home/batman/Workspaces/C Workspaces/OpenGLTest/display.cpp
+	"display.h"
+	<GL/glew.h>
+	<iostream>
+
+1388893855 /home/batman/Workspaces/C Workspaces/OpenGLTest/display.h
+	<string>
+	<SDL2/SDL.h>
+
+1389139395 /home/batman/Workspaces/C Workspaces/OpenGLTest/mesh.h
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<string>
+	<vector>
+	"obj_loader.h"
+
+1388894021 /home/batman/Workspaces/C Workspaces/OpenGLTest/shader.h
+	<string>
+	<GL/glew.h>
+	"transform.h"
+
+1388618512 /home/batman/Workspaces/C Workspaces/OpenGLTest/transform.h
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	"camera.h"
+
+1388618442 /home/batman/Workspaces/C Workspaces/OpenGLTest/camera.h
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+
+1388893980 /home/batman/Workspaces/C Workspaces/OpenGLTest/texture.h
+	<string>
+	<GL/glew.h>
+
+1389139888 source:/home/batman/Workspaces/C Workspaces/OpenGLTest/mesh.cpp
+	"mesh.h"
+	"util.h"
+	"debugTimer.h"
+	<map>
+	<algorithm>
+	<fstream>
+	<iostream>
+	<stdlib.h>
+
+1388894095 source:/home/batman/Workspaces/C Workspaces/OpenGLTest/shader.cpp
+	"shader.h"
+	<iostream>
+	<fstream>
+
+1388545247 source:/home/batman/Workspaces/C Workspaces/OpenGLTest/stb_image.c
+	"stb_image.h"
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+
+1388545436 /home/batman/Workspaces/C Workspaces/OpenGLTest/stb_image.h
+	<stdio.h>
+
+1388893995 source:/home/batman/Workspaces/C Workspaces/OpenGLTest/texture.cpp
+	"texture.h"
+	"stb_image.h"
+	<iostream>
+
+1388994854 /home/batman/Workspaces/C Workspaces/OpenGLTest/util.h
+	<vector>
+	<sstream>
+	"debugTimer.h"
+
+1388989689 /home/batman/Workspaces/C Workspaces/OpenGLTest/debugTimer.h
+	<SDL2/SDL.h>
+	<iostream>
+
+1389138811 /home/batman/Workspaces/C Workspaces/OpenGLTest/obj_loader.h
+	<glm/glm.hpp>
+	<vector>
+	<string>
+
+1389153329 source:/home/batman/Workspaces/C Workspaces/OpenGLTest/obj_loader.cpp
+	"obj_loader.h"
+	<fstream>
+	<iostream>
+	<algorithm>
+	<map>
+

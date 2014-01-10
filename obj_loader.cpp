@@ -12,9 +12,8 @@ static inline std::vector<std::string> SplitString(const std::string &s, char de
 
 OBJModel::OBJModel(const std::string& fileName)
 {
-    this->hasUVs = false;
-    this->hasNormals = false;
-
+	hasUVs = false;
+	hasNormals = false;
     std::ifstream file;
     file.open(fileName.c_str());
 

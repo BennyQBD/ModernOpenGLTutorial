@@ -1,4 +1,4 @@
-#ifndef DISPLAY_INLCUDED_H
+#ifndef DISPLAY_INCLUDED_H
 #define DISPLAY_INCLUDED_H
 
 #include <string>

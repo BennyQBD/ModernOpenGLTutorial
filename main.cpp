@@ -91,7 +91,7 @@ int main(int argc, char** argv)
 
 		//transform.GetPos()->x = sinCounter;
 		transform.GetRot()->y = counter * 100;
-		transform.GetRot()->z = counter * 100;
+		//transform.GetRot()->z = counter * 100;
 		//transform.GetScale()->x = absSinCounter;
 		//transform.GetScale()->y = absSinCounter;
 

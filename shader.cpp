@@ -19,7 +19,7 @@ Shader::Shader(const std::string& fileName)
 	CheckShaderError(m_program, GL_LINK_STATUS, true, "Error linking shader program");
 
 	glValidateProgram(m_program);
-	CheckShaderError(m_program, GL_LINK_STATUS, true, "Invalid shader program");
+	CheckShaderError(m_program, GL_VALIDATE_STATUS, true, "Invalid shader program");
 
 	m_uniforms[0] = glGetUniformLocation(m_program, "MVP");
 	m_uniforms[1] = glGetUniformLocation(m_program, "Normal");
